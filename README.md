@@ -1,12 +1,12 @@
  
 A comprehensive Data Analytics and Machine Learning project using the popular Kaggle Netflix dataset. This project explores Netflix's content strategy and library composition from 2008 to 2021, and implements a Content-Based Filtering Recommendation Engine using Natural Language Processing (NLP). 
  
-## ?? Project Overview 
+## Project Overview 
 - **Objective:** Clean messy streaming metadata, uncover production trends, and build an automated recommendation system based on plot descriptions. 
 - **Tech Stack:** Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn (TF-IDF, Cosine Similarity). 
 - **Key Deliverable:** Cleaned final dataset (`netflix_cleaned_final.csv`) and a reusable recommendation pipeline. 
  
-## ??? Project Phases & Architecture 
+## Project Phases & Architecture 
  
 ### Phase 1: Data Cleaning & Preprocessing 
 Raw data contained several structural gaps and unformatted columns. This phase ensured analytical readiness: 
@@ -26,7 +26,7 @@ Built a Machine Learning recommendation pipeline to automate content mapping:
 - **Similarity Matrix:** Calculated geometric angles across text layers using `Cosine Similarity` to rate text similarity from 0 to 1. 
 - **Automation Pipeline:** Constructed a modular Python function (`get_recommendations`) that queries similarity arrays to fetch top 5 contextual matches for target items like *Zombieland*. 
  
-## ?? How to Run the Project 
+## How to Run the Project 
  
 1. Clone the workspace repository: 
 \`\`\`bash 
